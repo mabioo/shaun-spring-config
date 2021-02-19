@@ -1,10 +1,10 @@
 spring:
-  profile:
+  profiles:
     active: dev
 
 ---
 spring:
-  profile: dev
+  profiles: dev
   application:
     name: spring-cloud-config-dev
 server: 
@@ -12,7 +12,7 @@ server:
 
 ---
 spring:
-  profile: test
+  profiles: test
   application:
     name: spring-cloud-config-test
 server: 
