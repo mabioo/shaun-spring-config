@@ -1,0 +1,19 @@
+spring:
+  profile:
+    active: dev
+
+---
+spring:
+  profile: dev
+  application:
+    name: spring-cloud-config-dev
+server: 
+  port: 7788
+
+---
+spring:
+  profile: test
+  application:
+    name: spring-cloud-config-test
+server: 
+  port: 7789
